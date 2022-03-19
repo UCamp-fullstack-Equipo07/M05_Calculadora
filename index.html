@@ -32,26 +32,27 @@
             <div class="calculadora">
                 <div class="display">
                     <div id="vaalor-anterior"></div>
+                    <input id="result" type="number" class="text_value" disabled>
                     <div id="valor-actual"></div>
                 </div>
-                <button class="reset">C</button>
+                <button id="erase" class="reset">C</button>
                 <button>&larr;</button>
-                <button class="formula">/</button>
-                <button class="numero">7</button>
-                <button class="numero">8</button>
-                <button class="numero">9</button>
-                <button class="operador">*</button>
-                <button class="numero">4</button>
-                <button class="numero">5</button>
-                <button class="numero">6</button>
-                <button class="operador">+</button>
-                <button class="numero">1</button>
-                <button class="numero">2</button>
-                <button class="numero">3</button>
-                <button class="operador">-</button>
-                <button class="cero">0</button>
-                <button class="operador">=</button>
-                <button>.</button>
+                <button id="divide" class="formula">/</button>
+                <button id="seven" class="numero">7</button>
+                <button id="eight" class="numero">8</button>
+                <button id="nine" class="numero">9</button>
+                <button id="multiply" class="operador">*</button>
+                <button id="four" class="numero">4</button>
+                <button id="five" class="numero">5</button>
+                <button id="six" class="numero">6</button>
+                <button id="summar" class="operador">+</button>
+                <button id="one" class="numero" onclick="obtain1()" value="1">1</button>
+                <button id="two" class="numero">2</button>
+                <button id="three" class="numero">3</button>
+                <button id="substract" class="operador">-</button>
+                <button id="zero" class="cero">0</button>
+                <button id="equal" class="operador">=</button>
+                <button id="dot">.</button>
             </div>
         </section>
     </main>
