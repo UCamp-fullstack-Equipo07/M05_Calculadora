@@ -8,7 +8,14 @@ function printOperations() {
         case '1':
             console.log(option);
             let val = prompt('Ingresa el primer numero');
-            val1 = Number(val);
+            let val1 = Number(val);
+            console.log(val1)
+            let val2 = prompt('Ingresa el segundo valor');
+            let valu2 = Number(val2);
+            console.log(valu2)
+            let suma = val1 + valu2;
+            console.log(suma)
+            alert(suma);
             break;
         case '2':
             console.log(option);
