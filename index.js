@@ -14,3 +14,7 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+function obtein1() {
+    var number1 = document.getElementById('one').value;
+}
